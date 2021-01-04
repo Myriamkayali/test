@@ -1,0 +1,24 @@
+{
+  "name": "git-test",
+  "version": "1.0.0",
+  "description": "this is a test to learn git and node",
+  "main": "index.html",
+  "scripts": {
+    "start":"npm run lite",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lite": "lite-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Myriamkayali/test.git"
+  },
+  "author": "Myriam Kayali",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Myriamkayali/test/issues"
+  },
+  "homepage": "https://github.com/Myriamkayali/test#readme",
+  "devDependencies": {
+    "lite-server": "^2.6.1"
+  }
+}
